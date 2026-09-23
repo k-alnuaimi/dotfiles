@@ -1,0 +1,9 @@
+[user]
+	email = khaled.laywad@gmail.com
+[http]
+	postBuffer = 500M
+	maxRequestBuffer = 100M
+[core]
+	compression = 0
+[alias]
+	pom = pull origin main
