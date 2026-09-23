@@ -1,0 +1,36 @@
+# aesthetics
+macos-titlebar-style = tabs
+window-padding-x = 8
+window-padding-y = 4
+background-opacity = 0.98
+unfocused-split-opacity = 0.7
+window-padding-balance = true
+window-colorspace= display-p3
+background-blur=true
+# typography
+font-size=17
+font-thicken=true
+font-thicken-strength=1
+adjust-cell-height=1
+font-family = "FiraMono Nerd Font"
+# macOS
+macos-option-as-alt = left
+
+# Cursor
+cursor-style = bar
+
+# Mouse
+mouse-hide-while-typing = true
+
+#theme 
+#theme = Ayu Mirage
+#theme = Banana Blueberry
+#theme = 0x96f
+theme = Carbonfox
+#keybinds
+keybind = global:cmd+backquote=toggle_quick_terminal
+
+
+
+
+

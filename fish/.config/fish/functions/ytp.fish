@@ -1,0 +1,3 @@
+function ytp --wraps='yt-dlp -o "/Users/khaled/YoutubeDownloadsSync/%(title)s.%(ext)s" -f "mp4"' --wraps='yt-dlp -o "/Users/khaled/YoutubeDownloadsSync/%(title)s.%(ext)s" -f "bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]/best[height<=720][ext=mp4]"' --wraps='yt-dlp -o "/Users/khaled/YoutubeDownloadsSync/%(title)s.%(ext)s" -f "bestvideo[height<=1080]+bestaudio/best[height<=1080]"' --wraps='yt-dlp -o "/Users/khaled/YoutubeDownloadsSync/%(title)s.%(ext)s" -S "res:720"' --description 'alias ytp=yt-dlp -o "/Users/khaled/YoutubeDownloadsSync/%(title)s.%(ext)s" -S "res:720"'
+    yt-dlp -o "/Users/khaled/YoutubeDownloadsSync/%(title)s.%(ext)s" -S "res:720" $argv
+end
