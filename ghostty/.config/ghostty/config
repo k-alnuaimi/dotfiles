@@ -2,12 +2,10 @@
 macos-titlebar-style = tabs
 window-padding-x = 8
 window-padding-y = 4
-#background-opacity = 1
-#background-opacity = 0.87
-background-image = /Users/khaled/Pictures/nature1.jpg
-background-image-opacity = 0.05
+#background-image = /Users/khaled/Pictures/nature1.jpg
+#background-image-opacity = 0.05
 background-image-fit = cover
-unfocused-split-opacity = 0.78
+unfocused-split-opacity = 0.7
 window-padding-balance = true
 window-colorspace= display-p3
 background-blur=true
@@ -27,10 +25,10 @@ cursor-style = bar
 mouse-hide-while-typing = true
 
 #theme 
-#theme = Ayu Mirage
+theme = Ayu Mirage
 #theme = Banana Blueberry
 #theme = 0x96f
-theme = Carbonfox
+#theme = Carbonfox
 #keybinds
 keybind = global:cmd+backquote=toggle_quick_terminal
 

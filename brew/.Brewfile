@@ -1,6 +1,4 @@
 tap "asmvik/formulae"
-# CLI of the open-source IDE For exploring and testing APIs
-brew "bruno-cli"
 # Dependency manager for Cocoa projects
 brew "cocoapods"
 # Simple, fast and user-friendly alternative to find
@@ -33,6 +31,8 @@ brew "tree-sitter"
 brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
 # Development kit for the Java programming language
 brew "openjdk@21"
 # Swiss-army knife of markup format conversion
@@ -71,14 +71,18 @@ cask "basictex"
 cask "bettercapture"
 # Tool to manage periodic breaks
 cask "breaktimer"
-# Open source IDE for exploring and testing APIs
-cask "bruno"
 # Universal database tool and SQL client
 cask "dbeaver-community"
+# Developer platform
+cask "dotnet-sdk"
+# Excalidraw client
+cask "excalidrawz"
 # Web browser
 cask "firefox"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty@tip"
+# 2D and 3D game engine
+cask "godot"
 # Web browser
 cask "google-chrome"
 # Menu bar calendar
@@ -89,37 +93,35 @@ cask "joplin"
 cask "libreoffice"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
+# Word processor
+cask "microsoft-word"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # App to write, plan, collaborate, and get organised
 cask "notion"
-# Knowledge base that works on top of a local folder of plain text Markdown files
-cask "obsidian"
 # Real time file synchronisation software
 cask "syncthing-app"
-# Customizable email client
-cask "thunderbird"
+# To-do & task list manager
+cask "ticktick"
 # Virtual machines UI using QEMU
 cask "utm@beta"
-vscode "4ops.terraform"
+# Open-source code editor
+cask "visual-studio-code"
+# Network protocol analyzer
+cask "wireshark-app"
 vscode "anthropic.claude-code"
+vscode "asvetliakov.vscode-neovim"
 vscode "bradlc.vscode-tailwindcss"
 vscode "dbaeumer.vscode-eslint"
 vscode "dbankier.vscode-quick-select"
 vscode "dsznajder.es7-react-js-snippets"
 vscode "github.vscode-github-actions"
-vscode "hashicorp.terraform"
 vscode "ionutvmi.path-autocomplete"
 vscode "markosth09.color-picker"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "ms-python.vscode-python-envs"
-vscode "ms-toolsai.jupyter"
-vscode "ms-toolsai.jupyter-keymap"
-vscode "ms-toolsai.jupyter-renderers"
-vscode "ms-toolsai.vscode-jupyter-cell-tags"
-vscode "ms-toolsai.vscode-jupyter-slideshow"
 vscode "ms-vscode.cmake-tools"
 vscode "ms-vscode.cpp-devtools"
 vscode "ms-vscode.cpptools"
@@ -127,3 +129,5 @@ vscode "ms-vscode.cpptools-extension-pack"
 vscode "ms-vscode.cpptools-themes"
 vscode "ms-vscode.makefile-tools"
 vscode "teabyii.ayu"
+uv "joplin-to-obsidian"
+npm "@angular/cli"

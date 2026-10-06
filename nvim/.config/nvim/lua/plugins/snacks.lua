@@ -7,7 +7,7 @@ return {
         explorer = {
           layout = {
             preset = "sidebar",
-            layout = { width = 0.15 },
+            layout = { width = 0.2 },
           },
         },
       },
